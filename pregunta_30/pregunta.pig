@@ -33,4 +33,18 @@ $ pig -x local -f pregunta.pig
 
         >>> Escriba su respuesta a partir de este punto <<<
 */
+data = LOAD 'data.csv' USING PigStorage(',') AS (item:INT, firstname:CHARARRAY, lastname:CHARARRAY, date:CHARARRAY, color:CHARARRAY, num:INT);
+dates = FOREACH data GENERATE date;
 
+processed_data = FOREACH dates {
+    -- Extrae el año, mes y día de la fecha
+    year = GetYear(ToDate(date, 'yyyy-MM-dd'));
+    day = ToDate(date, 'yyyy-MM-dd', 'GMT');
+    day_number = ToString(day, 'dd');
+    day_name = ToString(day, 'EEE');
+    day_last_name = ToString(day, 'EEEE');
+
+    GENERATE date, day_number AS day_number, day_name AS day_short, day_last_name;
+}
+STORE processed_data INTO 'output' USING PigStorage(',');
+dump processed_data;
