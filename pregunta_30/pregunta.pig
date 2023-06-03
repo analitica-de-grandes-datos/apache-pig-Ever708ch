@@ -33,4 +33,44 @@ $ pig -x local -f pregunta.pig
 
         >>> Escriba su respuesta a partir de este punto <<<
 */
+data = LOAD 'data.csv' USING PigStorage(',') AS (item:INT, firstname:CHARARRAY, lastname:CHARARRAY, date:CHARARRAY, color:CHARARRAY, num:INT);
+dates = FOREACH data GENERATE date;
 
+processed_data = FOREACH dates {
+    -- Extrae el año, mes y día de la fecha
+    year = GetYear(ToDate(date, 'yyyy-MM-dd'));
+    day = ToDate(date, 'yyyy-MM-dd', 'GMT');
+    day_number = ToString(day, 'dd');
+    dia = ToString(day,'d');
+    day_name = ToString(day, 'EEE');
+    day_last_name = ToString(day, 'EEEE');
+
+    -- Traduce el nombre del día de la semana al español
+    day_name_es = CASE day_name
+        WHEN 'Mon' THEN 'Lun'
+        WHEN 'Tue' THEN 'Mar'
+        WHEN 'Wed' THEN 'Mia'
+        WHEN 'Thu' THEN 'Jue'
+        WHEN 'Fri' THEN 'Vie'
+        WHEN 'Sat' THEN 'Sab'
+        WHEN 'Sun' THEN 'Dom'
+        ELSE day_name
+    END;
+
+    -- Traduce el nombre completo del día de la semana al español
+    day_last_name_es = CASE day_last_name
+        WHEN 'Monday' THEN 'Lunes'
+        WHEN 'Tuesday' THEN 'Martes'
+        WHEN 'Wednesday' THEN 'Miercoles'
+        WHEN 'Thursday' THEN 'Jueves'
+        WHEN 'Friday' THEN 'Viernes'
+        WHEN 'Saturday' THEN 'Sabado'
+        WHEN 'Sunday' THEN 'Domingo'
+        ELSE day_last_name
+    END;
+
+    GENERATE date, day_number AS day_number, dia As dia, LOWER(day_name_es) AS day_short, LOWER(day_last_name_es) AS day_full;
+}
+
+STORE processed_data INTO 'output' USING PigStorage(',');
+dump processed_data;
