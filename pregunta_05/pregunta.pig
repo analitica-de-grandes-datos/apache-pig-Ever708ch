@@ -17,6 +17,6 @@ data2 = FOREACH data GENERATE FLATTEN(TOKENIZE(f2)) AS letra;
 data3 = FILTER data2 BY letra MATCHES '[a-z]';
 data4 = GROUP data3 BY letra;
 data5 = FOREACH data4 GENERATE group, COUNT(data3);
-STORE data5 INTO 'output' USING PigStorage('\t');
+STORE data5 INTO 'output' USING PigStorage(',');
 dump data5;
 

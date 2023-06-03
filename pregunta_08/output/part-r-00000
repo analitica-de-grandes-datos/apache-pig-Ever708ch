@@ -1,70 +1,70 @@
-(a,aaa)	{(a,aaa),(a,aaa),(a,aaa),(a,aaa),(a,aaa)}
-(a,bbb)	{(a,bbb),(a,bbb),(a,bbb),(a,bbb),(a,bbb),(a,bbb),(a,bbb)}
-(a,ccc)	{(a,ccc),(a,ccc),(a,ccc),(a,ccc),(a,ccc),(a,ccc),(a,ccc),(a,ccc),(a,ccc),(a,ccc),(a,ccc),(a,ccc),(a,ccc)}
-(a,ddd)	{(a,ddd),(a,ddd),(a,ddd),(a,ddd),(a,ddd),(a,ddd),(a,ddd),(a,ddd),(a,ddd),(a,ddd),(a,ddd),(a,ddd),(a,ddd)}
-(a,eee)	{(a,eee),(a,eee),(a,eee),(a,eee),(a,eee),(a,eee),(a,eee)}
-(a,fff)	{(a,fff),(a,fff),(a,fff),(a,fff),(a,fff),(a,fff),(a,fff),(a,fff),(a,fff),(a,fff)}
-(a,ggg)	{(a,ggg),(a,ggg),(a,ggg),(a,ggg),(a,ggg),(a,ggg),(a,ggg),(a,ggg)}
-(a,hhh)	{(a,hhh),(a,hhh),(a,hhh),(a,hhh),(a,hhh),(a,hhh),(a,hhh),(a,hhh)}
-(a,iii)	{(a,iii),(a,iii),(a,iii),(a,iii),(a,iii),(a,iii),(a,iii)}
-(a,jjj)	{(a,jjj),(a,jjj),(a,jjj),(a,jjj),(a,jjj),(a,jjj),(a,jjj),(a,jjj),(a,jjj),(a,jjj)}
-(b,aaa)	{(b,aaa),(b,aaa),(b,aaa),(b,aaa)}
-(b,bbb)	{(b,bbb),(b,bbb),(b,bbb),(b,bbb),(b,bbb),(b,bbb),(b,bbb)}
-(b,ccc)	{(b,ccc),(b,ccc),(b,ccc),(b,ccc),(b,ccc)}
-(b,ddd)	{(b,ddd),(b,ddd),(b,ddd),(b,ddd),(b,ddd),(b,ddd),(b,ddd)}
-(b,eee)	{(b,eee),(b,eee),(b,eee),(b,eee),(b,eee)}
-(b,fff)	{(b,fff),(b,fff),(b,fff),(b,fff),(b,fff),(b,fff),(b,fff),(b,fff)}
-(b,ggg)	{(b,ggg),(b,ggg),(b,ggg),(b,ggg)}
-(b,hhh)	{(b,hhh),(b,hhh),(b,hhh),(b,hhh),(b,hhh),(b,hhh),(b,hhh)}
-(b,iii)	{(b,iii),(b,iii),(b,iii),(b,iii),(b,iii),(b,iii),(b,iii)}
-(b,jjj)	{(b,jjj),(b,jjj),(b,jjj),(b,jjj),(b,jjj)}
-(c,aaa)	{(c,aaa),(c,aaa),(c,aaa),(c,aaa),(c,aaa)}
-(c,bbb)	{(c,bbb),(c,bbb),(c,bbb),(c,bbb)}
-(c,ccc)	{(c,ccc),(c,ccc),(c,ccc),(c,ccc),(c,ccc),(c,ccc),(c,ccc),(c,ccc),(c,ccc),(c,ccc),(c,ccc),(c,ccc)}
-(c,ddd)	{(c,ddd),(c,ddd),(c,ddd),(c,ddd),(c,ddd),(c,ddd),(c,ddd),(c,ddd),(c,ddd)}
-(c,eee)	{(c,eee),(c,eee),(c,eee),(c,eee),(c,eee),(c,eee)}
-(c,fff)	{(c,fff),(c,fff),(c,fff),(c,fff),(c,fff),(c,fff),(c,fff),(c,fff)}
-(c,ggg)	{(c,ggg),(c,ggg),(c,ggg),(c,ggg),(c,ggg),(c,ggg),(c,ggg)}
-(c,hhh)	{(c,hhh),(c,hhh),(c,hhh),(c,hhh),(c,hhh),(c,hhh),(c,hhh)}
-(c,iii)	{(c,iii),(c,iii),(c,iii),(c,iii),(c,iii),(c,iii),(c,iii),(c,iii)}
-(c,jjj)	{(c,jjj),(c,jjj),(c,jjj),(c,jjj),(c,jjj),(c,jjj),(c,jjj),(c,jjj)}
-(d,aaa)	{(d,aaa),(d,aaa),(d,aaa),(d,aaa)}
-(d,bbb)	{(d,bbb),(d,bbb),(d,bbb),(d,bbb),(d,bbb),(d,bbb)}
-(d,ccc)	{(d,ccc),(d,ccc),(d,ccc),(d,ccc),(d,ccc),(d,ccc),(d,ccc)}
-(d,ddd)	{(d,ddd),(d,ddd),(d,ddd),(d,ddd),(d,ddd)}
-(d,eee)	{(d,eee),(d,eee),(d,eee),(d,eee),(d,eee),(d,eee)}
-(d,fff)	{(d,fff),(d,fff),(d,fff),(d,fff),(d,fff),(d,fff),(d,fff),(d,fff)}
-(d,ggg)	{(d,ggg),(d,ggg),(d,ggg),(d,ggg),(d,ggg),(d,ggg)}
-(d,hhh)	{(d,hhh),(d,hhh),(d,hhh),(d,hhh)}
-(d,iii)	{(d,iii),(d,iii),(d,iii),(d,iii),(d,iii),(d,iii),(d,iii),(d,iii),(d,iii)}
-(d,jjj)	{(d,jjj),(d,jjj),(d,jjj),(d,jjj),(d,jjj),(d,jjj),(d,jjj),(d,jjj)}
-(e,aaa)	{(e,aaa),(e,aaa),(e,aaa)}
-(e,bbb)	{(e,bbb),(e,bbb),(e,bbb),(e,bbb),(e,bbb),(e,bbb),(e,bbb),(e,bbb)}
-(e,ccc)	{(e,ccc),(e,ccc),(e,ccc),(e,ccc),(e,ccc),(e,ccc),(e,ccc),(e,ccc),(e,ccc)}
-(e,ddd)	{(e,ddd),(e,ddd),(e,ddd),(e,ddd),(e,ddd),(e,ddd),(e,ddd)}
-(e,eee)	{(e,eee),(e,eee),(e,eee),(e,eee),(e,eee),(e,eee),(e,eee)}
-(e,fff)	{(e,fff),(e,fff),(e,fff),(e,fff),(e,fff),(e,fff),(e,fff),(e,fff),(e,fff)}
-(e,ggg)	{(e,ggg),(e,ggg),(e,ggg),(e,ggg)}
-(e,hhh)	{(e,hhh),(e,hhh),(e,hhh),(e,hhh)}
-(e,iii)	{(e,iii),(e,iii),(e,iii),(e,iii),(e,iii),(e,iii),(e,iii),(e,iii)}
-(e,jjj)	{(e,jjj),(e,jjj),(e,jjj)}
-(f,aaa)	{(f,aaa),(f,aaa),(f,aaa),(f,aaa),(f,aaa),(f,aaa),(f,aaa),(f,aaa)}
-(f,bbb)	{(f,bbb),(f,bbb),(f,bbb),(f,bbb),(f,bbb),(f,bbb),(f,bbb),(f,bbb),(f,bbb),(f,bbb)}
-(f,ccc)	{(f,ccc),(f,ccc),(f,ccc),(f,ccc),(f,ccc),(f,ccc),(f,ccc),(f,ccc),(f,ccc),(f,ccc),(f,ccc),(f,ccc),(f,ccc)}
-(f,ddd)	{(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd),(f,ddd)}
-(f,eee)	{(f,eee),(f,eee),(f,eee),(f,eee),(f,eee),(f,eee),(f,eee),(f,eee),(f,eee),(f,eee),(f,eee)}
-(f,fff)	{(f,fff),(f,fff),(f,fff),(f,fff),(f,fff),(f,fff),(f,fff),(f,fff),(f,fff),(f,fff),(f,fff)}
-(f,ggg)	{(f,ggg),(f,ggg),(f,ggg),(f,ggg),(f,ggg),(f,ggg),(f,ggg),(f,ggg),(f,ggg)}
-(f,hhh)	{(f,hhh),(f,hhh),(f,hhh),(f,hhh),(f,hhh),(f,hhh),(f,hhh),(f,hhh),(f,hhh),(f,hhh)}
-(f,iii)	{(f,iii),(f,iii),(f,iii),(f,iii),(f,iii),(f,iii),(f,iii),(f,iii),(f,iii),(f,iii)}
-(f,jjj)	{(f,jjj),(f,jjj),(f,jjj),(f,jjj),(f,jjj),(f,jjj),(f,jjj),(f,jjj),(f,jjj),(f,jjj),(f,jjj),(f,jjj)}
-(g,aaa)	{(g,aaa),(g,aaa),(g,aaa)}
-(g,bbb)	{(g,bbb),(g,bbb),(g,bbb)}
-(g,ccc)	{(g,ccc),(g,ccc),(g,ccc),(g,ccc),(g,ccc),(g,ccc)}
-(g,ddd)	{(g,ddd),(g,ddd),(g,ddd),(g,ddd),(g,ddd)}
-(g,eee)	{(g,eee),(g,eee),(g,eee),(g,eee)}
-(g,fff)	{(g,fff),(g,fff),(g,fff),(g,fff),(g,fff)}
-(g,ggg)	{(g,ggg),(g,ggg),(g,ggg),(g,ggg)}
-(g,hhh)	{(g,hhh),(g,hhh),(g,hhh)}
-(g,iii)	{(g,iii),(g,iii),(g,iii),(g,iii)}
-(g,jjj)	{(g,jjj),(g,jjj),(g,jjj),(g,jjj),(g,jjj),(g,jjj)}
+(a,aaa),5
+(a,bbb),7
+(a,ccc),13
+(a,ddd),13
+(a,eee),7
+(a,fff),10
+(a,ggg),8
+(a,hhh),8
+(a,iii),7
+(a,jjj),10
+(b,aaa),4
+(b,bbb),7
+(b,ccc),5
+(b,ddd),7
+(b,eee),5
+(b,fff),8
+(b,ggg),4
+(b,hhh),7
+(b,iii),7
+(b,jjj),5
+(c,aaa),5
+(c,bbb),4
+(c,ccc),12
+(c,ddd),9
+(c,eee),6
+(c,fff),8
+(c,ggg),7
+(c,hhh),7
+(c,iii),8
+(c,jjj),8
+(d,aaa),4
+(d,bbb),6
+(d,ccc),7
+(d,ddd),5
+(d,eee),6
+(d,fff),8
+(d,ggg),6
+(d,hhh),4
+(d,iii),9
+(d,jjj),8
+(e,aaa),3
+(e,bbb),8
+(e,ccc),9
+(e,ddd),7
+(e,eee),7
+(e,fff),9
+(e,ggg),4
+(e,hhh),4
+(e,iii),8
+(e,jjj),3
+(f,aaa),8
+(f,bbb),10
+(f,ccc),13
+(f,ddd),17
+(f,eee),11
+(f,fff),11
+(f,ggg),9
+(f,hhh),10
+(f,iii),10
+(f,jjj),12
+(g,aaa),3
+(g,bbb),3
+(g,ccc),6
+(g,ddd),5
+(g,eee),4
+(g,fff),5
+(g,ggg),4
+(g,hhh),3
+(g,iii),4
+(g,jjj),6
