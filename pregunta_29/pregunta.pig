@@ -33,4 +33,32 @@ $ pig -x local -f pregunta.pig
 
         >>> Escriba su respuesta a partir de este punto <<<
 */
+data = LOAD 'data.csv' USING PigStorage(',') AS (item:INT, firstname:CHARARRAY, lastname:CHARARRAY, date:CHARARRAY, color:CHARARRAY, num:INT);
+dates = FOREACH data GENERATE date;
 
+processed_data = FOREACH dates {
+    -- Extrae el año, mes y día de la fecha
+    year = GetYear(ToDate(date, 'yyyy-MM-dd'));
+    month = ToDate(date, 'yyyy-MM-dd', 'GMT');
+    month_name = ToString(month, 'MMM');
+    month_number = ToString(month, 'MM');
+    month_only_number = ToString(month, 'M');
+month_name = CASE month_name
+        WHEN 'Jan' THEN 'ene'
+        WHEN 'Feb' THEN 'feb'
+        WHEN 'Mar' THEN 'mar'
+        WHEN 'Apr' THEN 'abr'
+        WHEN 'May' THEN 'may'
+        WHEN 'Jun' THEN 'jun'
+        WHEN 'Jul' THEN 'jul'
+        WHEN 'Aug' THEN 'ago'
+        WHEN 'Sep' THEN 'sep'
+        WHEN 'Oct' THEN 'oct'
+        WHEN 'Nov' THEN 'nov'
+        WHEN 'Dec' THEN 'dic'
+        ELSE month_name
+    END;
+    GENERATE date, LOWER(month_name) AS month_short, month_number AS month_numeric, month_only_number;
+}
+STORE processed_data INTO 'output' USING PigStorage(',');
+dump processed_data;

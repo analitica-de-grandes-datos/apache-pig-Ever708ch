@@ -13,4 +13,10 @@ $ pig -x local -f pregunta.pig
 
         >>> Escriba su respuesta a partir de este punto <<<
 */
-
+data = LOAD 'data.tsv' AS (f1:CHARARRAY, f2:CHARARRAY, f3:CHARARRAY);
+data2 = FOREACH data GENERATE FLATTEN(TOKENIZE(f3, '[],#')) AS f3;
+data3 = FILTER data2 BY (f3 MATCHES '[a-z][a-z][a-z]');
+data4 = GROUP data3 BY f3;
+data5 = FOREACH data4 GENERATE group, COUNT(data3);
+STORE data5 INTO 'output' USING PigStorage(',');
+dump data5;
